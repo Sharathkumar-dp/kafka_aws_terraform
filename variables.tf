@@ -40,16 +40,16 @@ variable "aws_ami" {
 }
 
 variable "instance_prefix" {
-  default     = "prod"
+  default = "prod"
 }
 
 variable "pub_instance_count" {
-  type = number
+  type    = number
   default = 2
 }
 
 variable "pri_instance_count" {
-  type = number
+  type    = number
   default = 2
 }
 
